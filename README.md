@@ -1,4 +1,4 @@
-### Hi there 👋
+### 仅供自学
 
 <!--
 **bdphin/bdphin** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
