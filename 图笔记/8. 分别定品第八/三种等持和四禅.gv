@@ -1,0 +1,52 @@
+graph 三种等持和四禅 {
+    rankdir = LR
+    splines=true
+    node [shape = none ]
+    
+    labelloc = t
+    label = "
+            三种等持和四禅\l
+            "
+
+    三种等持[fontcolor = red]
+    空三摩地[fontcolor = red]
+    无相三摩地[fontcolor = red]
+    无愿三摩地[fontcolor = red]
+    苦谛[fontcolor = red]
+    集谛[fontcolor = red]
+    灭谛[fontcolor = red]
+    道谛[fontcolor = red]
+
+
+    {空三摩地,无相三摩地,无愿三摩地} -- 三种等持 -- {净,无漏}
+    净 -- 世间等持
+    无漏 -- 三解脱门
+
+    苦谛 -- {非常,苦,空,非我}
+    集谛 -- {因,集,生,缘}
+    灭谛 -- {灭,静,妙,离}
+    道谛 -- {道,如,行,出}
+
+    {空,非我} -- 空三摩地 [label=缘]
+    {灭,静,妙,离} -- 无相三摩地 [label=缘]
+    {非常,苦,因,集,生,缘,道,如,行,出} -- 无愿三摩地 [label=缘]
+
+    {色，声，香，味，触，男，女，生，异，灭} -- 灭谛 [label=离十相]
+
+    四静虑[fontcolor = red]
+    初禅[fontcolor = red]
+    二禅[fontcolor = red]
+    三禅[fontcolor = red]
+    四禅[fontcolor = red]
+
+    四静虑 -- {初禅,二禅,三禅,四禅}
+    初禅 -- 寻伺 -- 火灾
+    初禅 -- {寻,伺,喜,轻安乐,等持} [label = 支 color=aquamarine2]
+    二禅 -- {内等净,喜,轻安乐,等持} [label = 支 color=gold2]
+    三禅 -- {行捨,正念,正慧,心受乐,等持} [label = 支 color=aquamarine]
+    四禅 -- {行捨,正念,非苦乐受,等持} [label = 支 color=gold]
+    二禅 -- 极喜 -- 水灾
+    三禅 -- 出入息 -- 风灾
+    四禅 -- 不动 -- 离三灾
+
+}

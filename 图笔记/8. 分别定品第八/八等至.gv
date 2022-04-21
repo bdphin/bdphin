@@ -1,0 +1,28 @@
+digraph 八等至 {
+    rankdir = LR
+    splines=true
+    node [shape = none ]
+    
+    labelloc = t
+    label = "
+            八等至\l
+            "
+
+    八等至[fontcolor = red]
+    净等至[fontcolor = red]
+    顺退分[fontcolor = red]
+    顺住分[fontcolor = red]
+    顺胜进分[fontcolor = red]
+    顺抉择分[fontcolor = red]
+
+    八等至 -> {染污等至,净等至,无漏等至} [dir=none]
+
+    净等至 -> {顺退分,顺住分,顺胜进分,顺抉择分} [dir=none]
+
+    有顶 -> {顺胜进分,无漏等至} [label="无" style=dashed, color=grey]
+
+    顺退分 -> {顺退分,顺住分} [label="生" color=aquamarine]
+    顺住分 -> {顺退分,顺住分,顺胜进分} [label="生" color=gold]
+    顺胜进分 -> {顺住分,顺胜进分,顺抉择分} [label="生" color=blue]
+    顺抉择分 -> 顺抉择分 [label="生" color=darkgreen ]
+}

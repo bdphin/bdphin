@@ -1,0 +1,38 @@
+digraph 八等至得 {
+    rankdir = LR
+    splines=true
+    node [shape = none]
+    
+    labelloc = t
+    label = "
+            八等至得\l
+            退：从净定退到染污定\l
+            离染：离开下界染污\l
+            受生：上地死亡，生本地\l
+            "
+
+    
+    自地染污等至[fontcolor = red]
+    自地净等至[fontcolor = red]
+    自地无漏等至[fontcolor = red]
+
+    上地 -> 下地[style=invis]
+
+    自地无漏等至 -> 自地净等至 [style=invis]
+    自地净等至 -> 自地染污等至 [style=invis]
+
+    有顶 -> {上地,自地无漏等至} [label="无" style=dashed, color=grey]
+
+    下地 -> 自地净等至 [label="有漏道 离染" color=aquamarine]
+    上地 -> 自地净等至 [label="受生" color=aquamarine]
+
+    自地净等至 -> 自地染污等至 [label="退" color=gold]
+    上地 -> 自地染污等至 [label="受生" color=gold]
+
+    下地 -> 自地无漏等至 [label="无漏道 离染" color=blue]
+
+    {rank = same; 自地染污等至; 自地净等至;自地无漏等至; }
+    {rank = same;  有顶 ;上地;下地}
+
+     
+}

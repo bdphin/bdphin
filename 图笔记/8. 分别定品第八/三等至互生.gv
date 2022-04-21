@@ -1,0 +1,30 @@
+ 
+ digraph 三等至互生 {
+    rankdir = LR
+    splines=true
+    node [shape = none ]
+    
+    labelloc = t
+    label = "
+            三等至互生\l
+            "
+
+    染污等至[fontcolor = red]
+    净等至[fontcolor = red]
+    无漏等至[fontcolor = red]
+
+    净等至 -> {无漏等至,净等至} [label="无间生 \[-2,2\]的" color=aquamarine]
+    净等至 -> {染污等至} [label="无间生 0的" color=aquamarine]
+
+    无漏等至 -> {无漏等至,净等至} [label="无间生 \[-2,2\]的" color=gold]
+   
+    染污等至 -> {染污等至} [label="无间生 0的" color=blue]
+    染污等至 -> {净等至} [label="无间生 \[-n,0\]的" color=blue]
+
+
+    临终时的净心 -> {染污心} [label="可以生 \[-n,n\]的" color=blue]
+    临终时的染污心 -> {染污心} [label="可以生 \[-n,0\]的" color=blue]
+
+}
+ 
+ 
