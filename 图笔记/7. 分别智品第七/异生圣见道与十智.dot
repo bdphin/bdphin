@@ -1,20 +1,246 @@
-graph Hui {
+graph 见道十智 {
     rankdir = LR
     splines=false
     node [shape = none]
     
     labelloc = t
     label = "
-            慧：有抉择的功能    智：决断的功能\l
-            见：眼，和推度的功能      忍：忍可，第一次见\l
+            异生圣见道位 与 十智成就之间的关系
+            黄色表示初成就
             "
    
-    慧 -- {有漏慧,无漏慧}
-
-    有漏慧 -- 有漏智 -- {有漏见, 其他智}
-    有漏见 -- {身见,边见,见取见,戒禁取见,邪见,世间正见}
-
-    无漏慧 -- {忍,无漏智}
-    无漏智 -- {无漏见, "尽智，无生智"}
+   生静虑受 [label=<
+           <table border='1' cellborder='1' cellspacing='0' >
+                <tr>
+                    <td width='70' align='center'>见道第几刹那</td>
+                    <td width='50' align='center'>1苦法忍</td>
+                    <td width='50' align='center'>2苦法智</td>
+                    <td width='50' align='center'>3苦类忍</td>
+                    <td width='50' align='center'>4苦类智</td>
+                    <td width='50' align='center'>5集法忍</td>
+                    <td width='50' align='center'>6集法智</td>
+                    <td width='50' align='center'>7集类忍</td>
+                    <td width='50' align='center'>8集类智</td>
+                    <td width='50' align='center'>9灭法忍</td>
+                    <td width='50' align='center'>10灭法智</td>
+                    <td width='50' align='center'>11灭类忍</td>
+                    <td width='50' align='center'>12灭类智</td>
+                    <td width='50' align='center'>13道法忍</td>
+                    <td width='50' align='center'>14道法智</td>
+                    <td width='50' align='center'>15道类忍</td>
+                    <td width='50' align='center'>16道类智</td>
+                </tr>
+                <tr>
+                    <td>成就智总数</td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>6</td>
+                    <td>6</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>7</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>世俗智</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                </tr>
+                <tr>
+                    <td>法智</td>
+                    <td></td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                </tr>
+                <tr>
+                    <td>苦智</td>
+                    <td></td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                </tr>
+                <tr>
+                    <td>类智</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                </tr>
+                <tr>
+                    <td>集智</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                </tr>
+                <tr>
+                    <td>灭智</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                </tr>
+                <tr>
+                    <td>道智</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                </tr>
+                <tr>
+                    <td>他心智</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>尽智</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>无生智</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+      </table>
+            >]
+ 
 
 }
