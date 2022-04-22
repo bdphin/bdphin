@@ -19,7 +19,7 @@
     无漏等至 -> {无漏等至,净等至} [label="无间生 \[-2,2\]的" color=gold]
    
     染污等至 -> {染污等至} [label="无间生 0的" color=blue]
-    染污等至 -> {净等至} [label="无间生 \[-n,0\]的" color=blue]
+    染污等至 -> {净等至} [label="无间生 \[-1,0\]的" color=blue]
 
 
     临终时的净心 -> {染污心} [label="可以生 \[-n,n\]的" color=blue]
