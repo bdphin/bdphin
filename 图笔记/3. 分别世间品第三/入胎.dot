@@ -1,0 +1,26 @@
+graph 世间品 {
+    layout = dot
+    rankdir = LR
+    splines=true
+    node [shape = none ]
+    
+    labelloc = t
+    label = "
+            入胎\l
+            
+            "    
+    入胎 [fontcolor = red]
+
+    入胎 -- {胎,卵}  
+    胎 -- {入胎正知,入胎住胎正知,入胎住胎出胎正知,都不正知}  
+    卵 -- 都不正知
+
+    入胎正知 -- 转轮圣王 -- 业胜
+    入胎住胎正知 -- 独觉 -- 智胜
+    入胎住胎出胎正知 -- 最后身菩萨
+    最后身菩萨 -- 业胜
+    最后身菩萨 -- 智胜
+
+    {rank = same 入胎正知 -- 入胎住胎正知 -- 入胎住胎出胎正知 -- 都不正知 [style=invis]}
+
+}

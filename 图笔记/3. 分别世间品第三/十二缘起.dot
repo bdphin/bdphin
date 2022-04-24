@@ -1,0 +1,35 @@
+graph 世间品 {
+    layout = dot
+    rankdir = LR
+    splines=true
+    ranksep="1.5"
+    nodesep="0.02"
+    node [shape = none ]
+    
+    labelloc = t
+    label = "
+            十二缘起\l
+            
+            "    
+    //入胎 [fontcolor = red]
+
+    前际 -- {无明,行}  
+    中际 -- {识,名色,六处,触,受,爱,取,有}  
+    后际 -- {生,老死}
+
+    node [shape = circle ]
+    {无明,爱,取} -- 惑 [color=blue]
+    {行,有} -- 业 [color=chartreuse3]
+    {识,名色,六处,触,受,生,老死} -- 事 [color=orange]
+
+    node [shape = none ]
+    {惑,业} -- 因
+    事 -- 果
+    
+    {rank = same 前际 --中际 -- 后际 [style=invis]}
+    {rank = same 无明 -- 行 [style=invis]}
+    {rank = same 识 -- 名色 -- 六处 -- 触 -- 受 -- 爱 -- 取 -- 有 [style=invis]}
+    {rank = same 生 -- 老死 [style=invis]}
+    {rank = same 惑 --业 -- 事 [style=invis]}
+
+}
