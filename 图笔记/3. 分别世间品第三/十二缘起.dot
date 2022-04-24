@@ -1,35 +1,50 @@
-graph 世间品 {
+digraph 世间品 {
     layout = dot
     rankdir = LR
     splines=true
-    ranksep="1.5"
-    nodesep="0.02"
+    ranksep="1.7"
+    nodesep="0.3"
     node [shape = none ]
     
     labelloc = t
     label = "
-            十二缘起\l
-            
+            十二缘起
+            \l
+            有漏的五蕴叫有，这十二支流转生死都叫有支\l
             "    
     //入胎 [fontcolor = red]
 
-    前际 -- {无明,行}  
-    中际 -- {识,名色,六处,触,受,爱,取,有}  
-    后际 -- {生,老死}
+    略因 -> 前际 [label = 无明在中际打开 dir = none]
+    前际 -> {无明,行} [dir = none]
+    中际 -> {识,名色,六处,触,受,爱,取,有}  [dir = none]
+    略果 -> 后际 [label = 生老死在中际打开 dir = none] 
+    后际 -> {生,老死} [dir = none]
 
-    node [shape = circle ]
-    {无明,爱,取} -- 惑 [color=blue]
-    {行,有} -- 业 [color=chartreuse3]
-    {识,名色,六处,触,受,生,老死} -- 事 [color=orange]
+    {node [shape = circle label = "惑" ] 惑1; 惑2;}
+    {node [shape = circle label = "业" ] 业1; 业2;}
+    {node [shape = circle label = "事" ] 事1; 事2;}
+
+    {无明,爱,取} -> 惑1 [color=blue dir = none]
+    {行,有} -> 业1 [color=green dir = none]
+    {识,名色,六处,触,受,生,老死} -> 事1 [color=orange dir = none]
 
     node [shape = none ]
-    {惑,业} -- 因
-    事 -- 果
-    
-    {rank = same 前际 --中际 -- 后际 [style=invis]}
-    {rank = same 无明 -- 行 [style=invis]}
-    {rank = same 识 -- 名色 -- 六处 -- 触 -- 受 -- 爱 -- 取 -- 有 [style=invis]}
-    {rank = same 生 -- 老死 [style=invis]}
-    {rank = same 惑 --业 -- 事 [style=invis]}
+    {惑1,业1} -> 因 [dir = none]
+    事1 -> 果 [dir = none]
+
+    惑2 -> {惑2,业2} [label = 生 color = blue] 
+    业2 -> {事2} [label = 生 color = green]
+    事2 -> {事2,惑2} [label = 生 color = orange] 
+    惑2 -> 因 [style = invis ]
+    业2 -> temp2 [style = invis ]
+    temp2  [style=invis]
+
+    temp  [style=invis]
+    {rank = same 前际 ->中际 -> 后际 [style=invis]}
+    {rank = same 无明 -> 行 -> 识 -> 名色 -> 六处 -> 触 -> 受 -> 爱 -> 取 -> 有 -> 生 -> 老死[style=invis]}
+    {rank = same temp -> 惑1 -> 业1 -> 事1 [style=invis]}
+    //{rank = same temp -> 惑2 -> 业2 -> 事2 [style=invis]}
+    {rank = same 因 -> 果 [style=invis]}
+    {rank = same 业2 -> temp2 [style=invis]}
 
 }
