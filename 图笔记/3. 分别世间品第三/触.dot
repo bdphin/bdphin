@@ -1,0 +1,33 @@
+graph 世间品 {
+    layout = dot
+    rankdir = LR
+    splines=true
+    node [shape = none ]
+    
+    labelloc = t
+    label = "
+            触\l  
+            "    
+    触 [fontcolor = red]
+    六触 [fontcolor = red]
+    二触 [fontcolor = red]
+    八触 [fontcolor = red]
+
+    触 -- {六触,二触,八触}  
+    六触 -- {前五根触,意触} [color=blue]
+    前五根触 -- 有对触
+    意触 -- 增语触
+    二触 -- {有对触,增语触} [color=blue]
+    八触 -- {明触,无明触,非明非无明触,爱相应触,恚相应触,顺乐受触,顺苦受触,顺捨受触} [color=blue]
+    明触 -- 无漏的
+    无明触 -- {爱相应触,恚相应触,其他触} -- 染污的
+    非明非无明触 -- 有漏善和无记
+
+    temp [style=invis]
+    {rank = same 六触 -- 二触 -- 八触 [style=invis]}
+    {rank = same 前五根触 -- 意触 [style=invis]}
+    {rank = same 无漏的 -- 染污的 -- 有漏善和无记 [style=invis]}
+    {rank = same 明触 -- 无明触 -- 非明非无明触 -- temp -- 顺乐受触 -- 顺苦受触 -- 顺捨受触 [style=invis]}
+    {rank = same 爱相应触 -- 恚相应触 -- 其他触 [style=invis]}
+
+}

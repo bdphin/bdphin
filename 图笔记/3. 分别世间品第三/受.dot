@@ -1,0 +1,33 @@
+graph 世间品 {
+    layout = dot
+    rankdir = LR
+    splines=true
+    ranksep="0.8"
+    nodesep="0.3"
+    node [shape = none ]
+    
+    labelloc = t
+    label = "
+            受\l 
+            十八意近行 -- 有漏， 因为三界所系\l
+            意根只缘法，叫不杂缘，蓝色\l
+            意根只缘色声香味触，叫杂缘，绿色\l
+            意根缘法，同时也缘色声香味触，也叫杂缘，蓝色加绿色\l
+            "    
+    受 [fontcolor = red]
+    身受 [fontcolor = red]
+    心受 [fontcolor = red]
+
+    受 -- {前五根触所生受,意触所生受}  
+    前五根触所生受 -- 身受 -- {苦受,乐受,身捨受}
+    意触所生受 -- 心受 -- {忧受,喜受,心捨受}
+    {身捨受,心捨受} -- 捨受
+    {忧受,喜受,心捨受} -- {色,声,香,味,触} [color = darkgreen ]
+    {忧受,喜受,心捨受} -- 法 [color = blue ]
+    {色,声,香,味,触} -- 通法 -- 被六根缘
+    法 -- 别法 -- 只能被意根缘
+
+    {rank = same 色 -- 声 -- 香 -- 味 -- 触 -- 法 [style=invis]}
+    {rank = same 忧受 -- 喜受 [style=invis]}
+
+}

@@ -1,0 +1,326 @@
+graph 世间品 {
+    layout = dot
+    rankdir = LR
+    splines=true
+    ranksep="0.8"
+    nodesep="0.3"
+    node [shape = none ]
+    
+    labelloc = t
+    label = "
+            十八意近行 -- 有漏， 因为三界所系\l
+            "    
+
+    十八意近行 [label=<
+           <table border='1' cellborder='1' cellspacing='0' >
+                <tr>
+                    <td width='100' colspan="2" align='center'></td>
+                    <td width='50'  align='center'>1</td>
+                    <td width='50'  align='center'>2</td>
+                    <td width='50'  align='center'>3</td>
+                    <td width='50'  align='center'>4</td>
+                    <td width='50'  align='center'>5</td>
+                    <td width='50'  align='center'>6</td>
+                    <td width='50'  align='center'>7</td>
+                    <td width='50'  align='center'>8</td>
+                    <td width='50'  align='center'>9</td>
+                    <td width='50'  align='center'>10</td>
+                    <td width='50'  align='center'>11</td>
+                    <td width='50'  align='center'>12</td>
+                    <td width='50'  align='center'>13</td>
+                    <td width='50'  align='center'>14</td>
+                    <td width='50'  align='center'>15</td>
+                    <td width='50'  align='center'>16</td>
+                    <td width='50'  align='center'>17</td>
+                    <td width='50'  align='center'>18</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" colspan="2">十八意近行</td>
+                    <td colspan="3" bgcolor='GoldenRod'>色</td>
+                    <td colspan="3" bgcolor='GoldenRod'>声</td>
+                    <td colspan="3" bgcolor='grey'>香</td>
+                    <td colspan="3" bgcolor='grey'>味</td>
+                    <td colspan="3" bgcolor='GoldenRod'>触</td>
+                    <td colspan="3" bgcolor='DeepSkyBlue'>法</td>
+                </tr>
+                <tr>
+                    <td>喜</td>
+                    <td>忧</td>
+                    <td>捨</td>
+                    <td>喜</td>
+                    <td>忧</td>
+                    <td>捨</td>
+                    <td>喜</td>
+                    <td>忧</td>
+                    <td>捨</td>
+                    <td>喜</td>
+                    <td>忧</td>
+                    <td>捨</td>
+                    <td>喜</td>
+                    <td>忧</td>
+                    <td>捨</td>
+                    <td>喜</td>
+                    <td>忧</td>
+                    <td>捨</td>
+                </tr>
+                <tr>
+                 <td rowspan="3">欲界系</td>
+                    <td>缘欲界</td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='yellow'>✓</td>
+                </tr>
+                <tr>
+                    <td>缘色界</td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='yellow'>✓</td>
+                </tr>
+                <tr>
+                    <td>缘无色界</td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='yellow'>✓</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">初禅二禅</td>
+                    <td>缘欲界</td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='DeepSkyBlue'></td>
+                    <td bgcolor='yellow'>✓</td>
+                </tr>
+                <tr>
+                    <td>缘色界</td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='DeepSkyBlue'></td>
+                    <td bgcolor='yellow'>✓</td>
+                </tr>
+                <tr>
+                    <td>缘无色界</td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='DeepSkyBlue'></td>
+                    <td bgcolor='yellow'>✓</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">三禅四禅</td>
+                    <td>缘欲界</td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='DeepSkyBlue'></td>
+                    <td bgcolor='DeepSkyBlue'></td>
+                    <td bgcolor='yellow'>✓</td>
+                </tr>
+                <tr>
+                    <td>缘色界</td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='DeepSkyBlue'></td>
+                    <td bgcolor='DeepSkyBlue'></td>
+                    <td bgcolor='yellow'>✓</td>
+                </tr>
+                <tr>
+                    <td>缘无色界</td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='DeepSkyBlue'></td>
+                    <td bgcolor='DeepSkyBlue'></td>
+                    <td bgcolor='yellow'>✓</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">空无边近分</td>
+                    <td>缘四禅</td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='yellow'>✓</td>
+                    <td bgcolor='DeepSkyBlue'></td>
+                    <td bgcolor='DeepSkyBlue'></td>
+                    <td bgcolor='yellow'>✓</td>
+                </tr>
+                <tr>
+                    <td>缘自己</td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='DeepSkyBlue'></td>
+                    <td bgcolor='DeepSkyBlue'></td>
+                    <td bgcolor='yellow'>✓</td>
+                </tr>
+                <tr>
+                <td rowspan="2">无色界其他</td>
+                    <td>缘自己</td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='grey'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='GoldenRod'></td>
+                    <td bgcolor='DeepSkyBlue'></td>
+                    <td bgcolor='DeepSkyBlue'></td>
+                    <td bgcolor='yellow'>✓</td>
+                </tr>
+      </table>
+            >]
+
+}
