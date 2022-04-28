@@ -1,0 +1,24 @@
+graph 世间品 {
+    layout = dot
+    rankdir = LR
+    splines=true
+    node [shape = none ]
+    
+    labelloc = t
+    label = "
+            食\l     
+            "    
+    食 [fontcolor = red]
+
+    食 -- {段食,触食,思食,识食} 
+    段食 -- {细食,粗食} 
+    细食 -- 比如香 -- 中有的食
+    细食 -- 比如流质 -- 婴儿的食
+    细食 -- 其他
+    触食 -- 心所法的触，根境识三和合
+    思食 -- 望（渴望）梅止渴
+    识食 -- 执持 -- 比如阿赖耶识的执持
+   
+
+   
+}
